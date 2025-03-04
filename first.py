@@ -10,4 +10,8 @@ a=np.array([
     (1,1,2,2,3,1,0),
     (1,1,2,2,4,1,1)])
 
-print(a)
+
+for i in range(0,6):
+    for j in range(0,7):
+        print(a[i,j], end=" ")
+    print("\n")
